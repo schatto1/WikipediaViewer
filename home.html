@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wikipedia Viewer</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/app.js"></script>
+
+</head>
+<body>
+
+<!-- App starts here here -->
+<div class="title">
+  <h2 class="locationSection"></h2>
+  <h3><span class="weatherSection"></span>&nbsp;<img class="weatherImage" src=""></h3>
+  <div class="tempAnimation">
+    <h3><span class="tempSection"></span> <span class="weatherMode" id="changeMode"></span></h3>
+    <h6>Min: <span class="minTemp"></span>&nbsp;&nbsp;Max: <span class="maxTemp"></span></h6>
+  </div>
+  <p><em>Click on the temperature symbol to convert between Celsius and Fahrenheit</em></p>
+  <hr>
+  <!-- This button will let user tweet current weather -->
+  <a href="#" id="tweetWeather" target="_blank">
+    <button class="btn btn-light btn-sm"><i class="fab fa-twitter-square"></i> Tweet Weather</button>
+  </a>
+  <br>
+  <p>Website created by Sumon Chattopadhyay</p>
+</div>
+
+</body>
+</html>
