@@ -15,8 +15,8 @@
 <!-- App starts here here -->
 <div class="title container">
   <div class="row justify-content-center">
-    <form method="GET" action="https://en.wikipedia.org/wiki/" class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search Wikipedia" aria-label="Search" name="q">
+    <form method="GET" action="https://en.wikipedia.org/w/api.php" class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search Wikipedia" aria-label="Search" name="action=query&format=json&list=search&utf8=1&srsearch">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
@@ -26,6 +26,7 @@
   <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
     <button class="btn btn-light btn-sm"><i class="far fa-newspaper"></i> Show me a random article</button>
   </a>
+  <!-- THis button will navigate user to main Wikipedia homepage -->
   <a href="https://en.wikipedia.org/w/api.php?action=query&titles=Main%20Page&prop=revisions&rvprop=content&format=jsonfm" target="_blank">
     <button class="btn btn-light btn-sm"><i class="far fa-newspaper"></i> Show me the main page</button>
   </a>
